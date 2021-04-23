@@ -150,18 +150,19 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 """
 ORGANISATION_NAME = "Bergsloawi"
 ORGANISATION_LONG_NAME = "Bergsloawi"
-ORGANISATION_ADDRESS = {"name":"Bergsloawi", 
-            "street" : "Rieterstrasse",
-            "number" : "7a",
-            "zip" : "8406",
-            "city" : "Winterthur",
+ORGANISATION_ADDRESS = {"name":"Bergsloawi Surselva", 
+            "street" : "Letzigraben",
+            "number" : "39",
+            "zip" : "8003",
+            "city" : "Zürich",
             "extra" : ""}
-ORGANISATION_BANK_CONNECTION = {"PC" : "123",
-            "IBAN" : "123",
+ORGANISATION_BANK_CONNECTION = {
+            "PC" : "123",
+            "IBAN" : "CH33 0839 0037 0378 1000 3",
             "BIC" : "123",
-            "NAME" : "asd",
+            "NAME" : "Alternative Bank Schweiz",
             "ESR" : ""}
-SHARE_PRICE = "123"
+SHARE_PRICE = "1100 CHF"
 
 INFO_EMAIL = "benglaus@bluewin.ch"
 SERVER_URL = "www.bergsolawi.ch"

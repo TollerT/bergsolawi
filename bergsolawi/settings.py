@@ -164,7 +164,7 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "123",
 SHARE_PRICE = "123"
 
 INFO_EMAIL = "benglaus@bluewin.ch"
-SERVER_URL = "www.bergsolawi.org"
+SERVER_URL = "www.bergsolawi.ch"
 ADMINPORTAL_NAME = "Benjamin Glaus"
 ADMINPORTAL_SERVER_URL = "www"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"

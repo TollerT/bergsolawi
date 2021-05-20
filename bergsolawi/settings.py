@@ -170,3 +170,7 @@ ADMINPORTAL_NAME = "Bergsolawi Surselva"
 ADMINPORTAL_SERVER_URL = "bergsolawi-surselva.ch"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"
 BUSINESS_REGULATIONS = "http://bergsolawi.ch/"
+BYLAWS = "http://bergsolawi.ch/"
+
+FAQ_DOC = "http://bergsolawi.ch/"
+

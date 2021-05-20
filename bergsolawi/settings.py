@@ -169,5 +169,5 @@ SERVER_URL = "bergsolawi-surselva.ch"
 ADMINPORTAL_NAME = "Bergsolawi Surselva"
 ADMINPORTAL_SERVER_URL = "bergsolawi-surselva.ch"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"
-BYLAWS = "http://bergsolawi.ch/"
+BYLAWS = "http://bergsolawi.ch/resources/BSS%20210410%20-%20Statuten%20Gr%C3%BCndung%20%28Scan%29.pdf"
 

@@ -164,7 +164,7 @@ ORGANISATION_BANK_CONNECTION = {
             "ESR" : ""}
 SHARE_PRICE = "1111 CHF"
 
-INFO_EMAIL = "benglaus@bluewin.ch"
+INFO_EMAIL = "info@bergsolawi.ch"
 SERVER_URL = "bergsolawi-surselva.ch"
 ADMINPORTAL_NAME = "Bergsolawi Surselva"
 ADMINPORTAL_SERVER_URL = "bergsolawi-surselva.ch"

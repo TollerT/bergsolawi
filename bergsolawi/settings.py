@@ -170,4 +170,3 @@ ADMINPORTAL_NAME = "Bergsolawi Surselva"
 ADMINPORTAL_SERVER_URL = "bergsolawi-surselva.ch"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"
 BYLAWS = "http://bergsolawi.ch/resources/BSS%20210410%20-%20Statuten%20Gr%C3%BCndung%20%28Scan%29.pdf"
-IMAGES = { 'core' : 'https://png2.cleanpng.com/sh/961eb014e6c7051d2f0419905a833223/L0KzQYm3UsE0N5l4fZH0aYP2gLBuTfNzbZJyRd9ybHuwc7nshgNmNZRmiuZ4b36wc7nshgNmNWZmUKUEMEK8SIiBhvY1NmY4SKIDMkm4QYa4WMU4OWY7SacANUOxgLBu/kisspng-cream-milk-cheese-cartoon-cheese-5a839029878ff4.5300829515185715615553.png'}

@@ -166,6 +166,6 @@ SHARE_PRICE = "1111 CHF"
 
 INFO_EMAIL = "benglaus@bluewin.ch"
 SERVER_URL = "bergsolawi-surselva.ch"
-ADMINPORTAL_NAME = "Benjamin Glaus"
+ADMINPORTAL_NAME = "Bergsolawi Surselva"
 ADMINPORTAL_SERVER_URL = "bergsolawi-surselva.ch"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"

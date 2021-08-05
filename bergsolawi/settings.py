@@ -148,9 +148,9 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 """
      juntagrico Settings
 """
-ORGANISATION_NAME = "Bergsloawi"
-ORGANISATION_LONG_NAME = "Bergsloawi"
-ORGANISATION_ADDRESS = {"name":"Bergsloawi Surselva", 
+ORGANISATION_NAME = "Bergsolawi"
+ORGANISATION_LONG_NAME = "Bergsolawi"
+ORGANISATION_ADDRESS = {"name":"Bergsolawi Surselva", 
             "street" : "Letzigraben",
             "number" : "39",
             "zip" : "8003",
@@ -162,7 +162,7 @@ ORGANISATION_BANK_CONNECTION = {
             "BIC" : "123",
             "NAME" : "Alternative Bank Schweiz",
             "ESR" : ""}
-SHARE_PRICE = "1111 CHF"
+SHARE_PRICE = "1110 CHF"
 
 INFO_EMAIL = "info@bergsolawi.ch"
 SERVER_URL = "bergsolawi-surselva.ch"

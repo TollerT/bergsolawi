@@ -162,7 +162,7 @@ ORGANISATION_BANK_CONNECTION = {
             "BIC" : "123",
             "NAME" : "Alternative Bank Schweiz",
             "ESR" : ""}
-SHARE_PRICE = "1110 CHF"
+SHARE_PRICE = "1111"
 
 INFO_EMAIL = "info@bergsolawi.ch"
 SERVER_URL = "bergsolawi-surselva.ch"

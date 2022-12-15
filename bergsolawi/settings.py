@@ -165,7 +165,7 @@ ORGANISATION_BANK_CONNECTION = {
 SHARE_PRICE = "1111"
 
 INFO_EMAIL = "info@bergsolawi.ch"
-SERVER_URL = "info@bergsolawi.ch"
+SERVER_URL = "titus.metanet.ch"
 ADMINPORTAL_NAME = "Bergsolawi Surselva"
 ADMINPORTAL_SERVER_URL = "bergsolawi-surselva.ch"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"

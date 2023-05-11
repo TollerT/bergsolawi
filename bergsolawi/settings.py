@@ -148,6 +148,11 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 """
      juntagrico Settings
 """
+BUSINESS_YEAR_CANCELATION_MONTH = 2
+MEMBERSHIP_END_MONTH = 5
+BUSINESS_YEAR_START = {"day":1, "month":6}
+
+
 ORGANISATION_NAME = "Bergsolawi"
 ORGANISATION_LONG_NAME = "Bergsolawi"
 ORGANISATION_ADDRESS = {"name":"Bergsolawi Surselva", 

@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.admin",
     "juntagrico",
+    "juntagrico_webdav",
     "impersonate",
     "crispy_forms",
     "bergsolawi",
@@ -75,6 +76,16 @@ TEMPLATES = [
         },
     },
 ]
+
+# The caches are for juntagrico_webdav, see
+# https://github.com/juntagrico/juntagrico-webdav/blob/main/juntagrico_webdav/docs/instalation.rst
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.db.DatabaseCache",
+        "LOCATION": "juntagrico_app_cache_table",
+        "TIMEOUT": None,
+    }
+}
 
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 

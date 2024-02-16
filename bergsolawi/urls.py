@@ -15,10 +15,12 @@ Including another URLconf
 from django.urls import include, path
 from django.contrib import admin
 import juntagrico
+import juntagrico_webdav
 
 urlpatterns = [
-    path(r"/admin/", admin.site.urls),
-    path(r"", include("juntagrico.urls")),  # FIXME: What to put here?
-    path(r"", juntagrico.views.home),  # FIXME: What to put here?
-    path(r"/impersonate/", include("impersonate.urls")),
+    path(r"admin/", admin.site.urls),
+    path(r"", include("juntagrico.urls")),
+    path(r"", include("juntagrico_webdav.urls")),  # FIXME: What to put here?
+    path(r"", juntagrico.views.home),
+    path(r"impersonate/", include("impersonate.urls")),
 ]

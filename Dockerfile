@@ -10,7 +10,7 @@
 
 FROM python:3.8-slim-bookworm
 
-RUN apt-get update && apt-get install -y libpq-dev gcc
+RUN apt-get update && apt-get install -y libpq-dev gcc git
 
 WORKDIR bergsolawi
 

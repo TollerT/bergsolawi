@@ -1,0 +1,3 @@
+[submodule "juntagrico-webdav"]
+	path = juntagrico-webdav
+	url = git@github.com:theova/juntagrico-webdav.git

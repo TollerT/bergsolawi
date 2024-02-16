@@ -21,15 +21,15 @@ RUN pip install -r requirements.txt
 
 ENV JUNTAGRICO_SECRET_KEY="TEST_KEY"
 ENV JUNTAGRICO_DEBUG="True"
-ENV EMAIL_HOST="test@test.ch"
-ENV EMAIL_HOST_USER="test"
-ENV EMAIL_HOST_PASSWORD="test"
+ENV DJANGO_SUPERUSER_USERNAME="test"
+ENV DJANGO_SUPERUSER_PASSWORD="test"
+ENV DJANGO_SUPERUSER_EMAIL="test@test.ch"
 
 # Setup DB
 RUN ./manage.py migrate
 
 # Setup admin user
-RUN ./manage.py createsuperuser && ./manage.py create_member_for_superusers
+RUN ./manage.py createsuperuser --noinput  && ./manage.py create_member_for_superusers
 
 # Create Testdata
 RUN ./manage.py generate_testdata_advanced

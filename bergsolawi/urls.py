@@ -1,6 +1,6 @@
 """bergsolawi URL Configuration
 
-The `urlpatterns` list routes URLs to views. 
+The `urlpatterns` list routes URLs to views.
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -17,8 +17,8 @@ from django.contrib import admin
 import juntagrico
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^', include('juntagrico.urls')),
-    url(r'^$', juntagrico.views.home),
-    url(r'^impersonate/', include('impersonate.urls')),
+    url(r"^admin/", admin.site.urls),
+    # url(r'^', include('juntagrico.urls')), # FIXME: What to put here?
+    # url(r"^$", juntagrico.views.home), # FIXME: What to put here?
+    url(r"^impersonate/", include("impersonate.urls")),
 ]

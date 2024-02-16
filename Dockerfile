@@ -20,6 +20,10 @@ COPY requirements.txt manage.py ./
 RUN pip install -r requirements.txt
 
 ENV JUNTAGRICO_SECRET_KEY="TEST_KEY"
+ENV JUNTAGRICO_DEBUG="True"
+ENV EMAIL_HOST="test@test.ch"
+ENV EMAIL_HOST_USER="test"
+ENV EMAIL_HOST_PASSWORD="test"
 
 # Setup DB
 RUN ./manage.py migrate

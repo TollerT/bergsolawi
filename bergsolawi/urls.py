@@ -17,8 +17,8 @@ from django.contrib import admin
 import juntagrico
 
 urlpatterns = [
-    path(r"^admin/", admin.site.urls),
-    path(r"^", include("juntagrico.urls")),  # FIXME: What to put here?
-    path(r"^$", juntagrico.views.home),  # FIXME: What to put here?
-    path(r"^impersonate/", include("impersonate.urls")),
+    path(r"/admin/", admin.site.urls),
+    path(r"", include("juntagrico.urls")),  # FIXME: What to put here?
+    path(r"", juntagrico.views.home),  # FIXME: What to put here?
+    path(r"/impersonate/", include("impersonate.urls")),
 ]

@@ -2,4 +2,4 @@ juntagrico==1.5.8
 gunicorn==21.2.0
 Faker==23.2.0
 # juntagrico-webdav==1.5.0
-juntagrico-webdav @ git+https://github.com/theova/juntagrico-webdav.git@main
+juntagrico-webdav @ git+https://github.com/bergsolawi/juntagrico-webdav.git@main

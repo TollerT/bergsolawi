@@ -19,7 +19,7 @@ Jedes Mitglied der Genossenschaft kauft mindestens einen Anteilschein. Somit bis
 --------------------------
 Deine Login-Informationen
 
-{% blocktrans %}Melde dich mit den untenstehenden Angaben im Mitgliederportal von Bergsolawi auf {{server_url}} an. Dort findest du deine Abo-Übersicht und kannst dich für Arbeitseinsätze eintragen.
+{% blocktrans %}Melde dich mit den untenstehenden Angaben im Mitgliederportal von Bergsolawi auf https://bergsolawi-surselva.ch an. Dort findest du deine Abo-Übersicht und kannst dich für Arbeitseinsätze eintragen.
 
 Um dich einzuloggen, kannst du folgende Daten benutzen{% endblocktrans %}:
 
@@ -27,9 +27,9 @@ Um dich einzuloggen, kannst du folgende Daten benutzen{% endblocktrans %}:
 {% trans "Passwort" %}: {{ password }}
 
 {% blocktrans %}Klicke bitte auf den folgenden Bestätigungslink, um deine Emailadresse zu bestätigen und damit wir dich als {{ v_member_type }} freischalten können:
-{% endblocktrans %} {{ server_url }}{% url 'confirm' member.get_hash %}
+{% endblocktrans %} https://bergsolawi-surselva.ch{% url 'confirm' member.get_hash %}
 
-{% trans "Bitte setze dir hier gleich ein neues Passwort:" %} {{server_url}}/my/password
+{% trans "Bitte setze dir hier gleich ein neues Passwort:" %} https://bergsolawi-surselva.ch/my/password
 
 --------------------------------
 Informationen zum Mitgliederportal der Bergsolawi

@@ -44,4 +44,4 @@ Wir freuen uns, Dich bald persönlich kennen zu lernen.
 
 {% blocktrans trimmed %}
 Die {{ c_organisation_name }}-Kerngruppe
-{% endblock %}
+{% endblocktrans %}

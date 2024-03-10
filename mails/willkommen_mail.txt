@@ -11,7 +11,7 @@
 
 {% blocktrans %}Vielen herzlichen Dank für Deine Anmeldung zur Mitgliedschaft bei {{ v_d_enriched_organisation }}.{% endblocktrans %}
 
-Jedes Mitglied der Kooperative kauft mindestens einen Anteilschein. Somit bist du Miteigentümer_In des Gemüsebetriebs und kannst bei vielen Entscheidungen mitbestimmen und wir können gemeinsam die Infrastruktur für den Gemüseanbau finanzieren. Bei einem Austritt aus der Genossenschaft bekommst du deinen Anteilschein zurück erstattet.
+Jedes Mitglied der Genossenschaft kauft mindestens einen Anteilschein. Somit bist du Miteigentümer_In von Bergsolawi und kannst an den Generalversammlungen mitbestimmen. Bei einem Austritt aus Bergsolawi bekommst du deinen Anteilschein anteilsmässig zurück erstattet.
 
 -> Pro gekauften Anteilschein erhältst du sogleich ein separates Email mit entsprechenden Zahlungsinformationen zugesandt.
 
@@ -19,7 +19,7 @@ Jedes Mitglied der Kooperative kauft mindestens einen Anteilschein. Somit bist d
 --------------------------
 Deine Login-Informationen
 
-{% blocktrans %}Melde dich mit den untenstehenden Angaben im Mitgliederportal von Pura Verdura auf {{serverurl}} an. Dort findest du deine Abo-Übersicht und kannst dich für Arbeitseinsätze eintragen.
+{% blocktrans %}Melde dich mit den untenstehenden Angaben im Mitgliederportal von Bergsolawi auf {{serverurl}} an. Dort findest du deine Abo-Übersicht und kannst dich für Arbeitseinsätze eintragen.
 
 Um dich einzuloggen, kannst du folgende Daten benutzen{% endblocktrans %}:
 
@@ -32,17 +32,16 @@ Um dich einzuloggen, kannst du folgende Daten benutzen{% endblocktrans %}:
 {% trans "Bitte setze dir hier gleich ein neues Passwort:" %} {{serverurl}}/my/password
 
 --------------------------------
-Informationen zum Mitgliederportal von Pura Verdura
+Informationen zum Mitgliederportal der Bergsolawi
 
 {% if c_faq_doc.strip %}
-{% blocktrans with fd=c_faq_doc|safe %}Bei weiteren Fragen kannst du gerne die FAQ-Seite ({{ fd }}) besuchen oder du schreibst uns eine Mail an mitglieder@puraverdura.ch.{% endblocktrans %}
+{% blocktrans with fd=c_faq_doc|safe %}Bei weiteren Fragen kannst du gerne die FAQ-Seite ({{ fd }}) besuchen oder du schreibst uns eine Mail an info@bergsolawi.ch.{% endblocktrans %}
 {% else %}
-{% blocktrans %}Bei Fragen kannst du uns gerne ein E-Mail schreiben an mitglieder@puraverdura.ch.{% endblocktrans %}
+{% blocktrans %}Bei Fragen kannst du uns gerne ein E-Mail schreiben an info@pbergsolawi.ch.{% endblocktrans %}
 {% endif %}
 
 Wir freuen uns, Dich bald persönlich kennen zu lernen.
 
 {% blocktrans trimmed %}
-Die {{ c_organisation_name }}-Betriebsgruppe
-{% endblocktrans %}
+Die {{ c_organisation_name }}-Kerngruppe
 {% endblock %}

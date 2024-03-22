@@ -94,7 +94,7 @@ WSGI_APPLICATION = "bergsolawi.wsgi.application"
 
 LANGUAGE_CODE = "de"
 
-SITE_ID = 2
+SITE_ID = 0
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.

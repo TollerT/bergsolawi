@@ -13,7 +13,7 @@ SECRET_KEY = os.environ.get("JUNTAGRICO_SECRET_KEY")
 
 DEBUG = os.environ.get("JUNTAGRICO_DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ["bergsolawi-surselva.ch", "localhost", "0.0.0.0"]
+ALLOWED_HOSTS = ["intern.bergsolawi.ch", "localhost", "0.0.0.0"]
 
 
 # Application definition
@@ -177,9 +177,9 @@ BUSINESS_YEAR_START = {"day": 1, "month": 7}
 
 
 ORGANISATION_NAME = "Bergsolawi"
-ORGANISATION_LONG_NAME = "Bergsolawi"
+ORGANISATION_LONG_NAME = "Genossenschaft Bergsolawi Surselva"
 ORGANISATION_ADDRESS = {
-    "name": "Bergsolawi Surselva",
+    "name": "Genossenschaft Bergsolawi Surselva",
     "street": "Letzigraben",
     "number": "39",
     "zip": "8003",
@@ -198,7 +198,7 @@ SHARE_PRICE = "1111"
 INFO_EMAIL = "info@bergsolawi.ch"
 SERVER_URL = "bergsolawi.ch"
 ADMINPORTAL_NAME = "Bergsolawi Surselva"
-ADMINPORTAL_SERVER_URL = "bergsolawi-surselva.ch"
+ADMINPORTAL_SERVER_URL = "intern.bergsolawi.ch"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"
 BYLAWS = "http://bergsolawi.ch/resources/statuten.pdf"
 

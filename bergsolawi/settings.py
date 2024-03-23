@@ -13,7 +13,7 @@ SECRET_KEY = os.environ.get("JUNTAGRICO_SECRET_KEY")
 
 DEBUG = os.environ.get("JUNTAGRICO_DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ["intern.bergsolawi.ch", "localhost", "0.0.0.0"]
+ALLOWED_HOSTS = ["bergsolawi-surselva.ch", "localhost", "0.0.0.0"]
 
 
 # Application definition
@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     "bergsolawi",
 ]
 
-ROOT_URLCONF = "intern.bergsolawi.urls"
+ROOT_URLCONF = "bergsolawi.urls"
 
 DATABASES = {
     "default": {
@@ -94,7 +94,7 @@ WSGI_APPLICATION = "bergsolawi.wsgi.application"
 
 LANGUAGE_CODE = "de"
 
-SITE_ID = 7
+SITE_ID = 2
 
 
 # If you set this to False, Django will make some optimizations so as not
@@ -199,7 +199,7 @@ SHARE_PRICE = "1111"
 INFO_EMAIL = "info@bergsolawi.ch"
 SERVER_URL = "bergsolawi.ch"
 ADMINPORTAL_NAME = "Bergsolawi Surselva"
-ADMINPORTAL_SERVER_URL = "intern.bergsolawi.ch"
+ADMINPORTAL_SERVER_URL = "bergsolawi-surselva.ch"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"
 BYLAWS = "http://bergsolawi.ch/resources/statuten.pdf"
 

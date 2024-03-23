@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     "bergsolawi",
 ]
 
-ROOT_URLCONF = "bergsolawi.urls"
+ROOT_URLCONF = "intern.bergsolawi.urls"
 
 DATABASES = {
     "default": {

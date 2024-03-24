@@ -199,9 +199,9 @@ SHARE_PRICE = "1111"
 INFO_EMAIL = "info@bergsolawi.ch"
 SERVER_URL = "bergsolawi.ch"
 ADMINPORTAL_NAME = "Bergsolawi Surselva"
-ADMINPORTAL_SERVER_URL = "bergsolawi-surselva.ch"
+ADMINPORTAL_SERVER_URL = "intern.bergsolawi.ch"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"
-BYLAWS = "http://bergsolawi.ch/resources/statuten.pdf"
+BYLAWS = "https://bergsolawi.ch/resources/statuten.pdf"
 
 # See https://juntagrico.readthedocs.io/en/latest/settings.html#email
 EMAILS = {

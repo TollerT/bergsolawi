@@ -124,6 +124,8 @@ MIDDLEWARE = [
     "impersonate.middleware.ImpersonateMiddleware",
 ]
 
+DEFAULT_FROM_EMAIL = "info@bergsolawi.ch"
+
 EMAIL_HOST = os.environ.get("JUNTAGRICO_EMAIL_HOST")
 EMAIL_HOST_USER = os.environ.get("JUNTAGRICO_EMAIL_USER")
 EMAIL_HOST_PASSWORD = os.environ.get("JUNTAGRICO_EMAIL_PASSWORD")
@@ -135,6 +137,7 @@ SESSION_SERIALIZER = "django.contrib.sessions.serializers.PickleSerializer"
 
 WHITELIST_EMAILS = []
 
+DEFAULT_FROM_EMAIL = "info@bergsolawi.ch"
 
 def whitelist_email_from_env(var_env_name):
     email = os.environ.get(var_env_name)

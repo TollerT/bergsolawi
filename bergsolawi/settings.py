@@ -137,7 +137,6 @@ SESSION_SERIALIZER = "django.contrib.sessions.serializers.PickleSerializer"
 
 WHITELIST_EMAILS = []
 
-DEFAULT_FROM_EMAIL = "info@bergsolawi.ch"
 
 def whitelist_email_from_env(var_env_name):
     email = os.environ.get(var_env_name)

@@ -12,14 +12,15 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.urls import include, path
+from django.conf.urls import include
+from django.urls import re_path
 from django.contrib import admin
 import juntagrico
 import juntagrico_webdav
 
 urlpatterns = [
-    path(r"admin/", admin.site.urls),
-    path(r"", include("juntagrico.urls")),
-    path(r"", include("juntagrico_webdav.urls")),  # FIXME: What to put here?
-    path(r"impersonate/", include("impersonate.urls")),
+    re_path(r"admin/", admin.site.urls),
+    re_path(r"", include("juntagrico.urls")),
+    re_path(r"", include("juntagrico_webdav.urls")),  # FIXME: What to put here?
+    re_path(r"impersonate/", include("impersonate.urls")),
 ]

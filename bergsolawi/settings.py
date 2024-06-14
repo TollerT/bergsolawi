@@ -126,6 +126,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "impersonate.middleware.ImpersonateMiddleware",
+    'django.contrib.sites.middleware.CurrentSiteMiddleware',
 ]
 
 DEFAULT_FROM_EMAIL = "info@bergsolawi.ch"
@@ -138,6 +139,7 @@ EMAIL_USE_TLS = os.environ.get("JUNTAGRICO_EMAIL_TLS", "False") == "True"
 EMAIL_USE_SSL = os.environ.get("JUNTAGRICO_EMAIL_SSL", "False") == "True"
 
 SESSION_SERIALIZER = "django.contrib.sessions.serializers.PickleSerializer"
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
 
 WHITELIST_EMAILS = []
 
@@ -218,9 +220,7 @@ ORGANISATION_WEBSITE = {
     'name': "bergsolawi.ch",
     'url': "https://bergsolawi.ch"
 }
-ADMINPORTAL_NAME = "Bergsolawi Surselva"
-ADMINPORTAL_SERVER_URL = "intern.bergsolawi.ch"
-STYLE_SHEET = "/static/bergsolawi/css/customize.css"
+STYLES = {'static': ["bergsolawi/css/customize.css"]}
 BYLAWS = "https://bergsolawi.ch/resources/statuten.pdf"
 
 # See https://juntagrico.readthedocs.io/en/latest/settings.html#email

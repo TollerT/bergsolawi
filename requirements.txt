@@ -1,5 +1,5 @@
 juntagrico==1.6.0
 gunicorn==22.0.0
-Faker==23.2.0
+Faker==25.8.0
 juntagrico-webdav==1.6.0
 # juntagrico-webdav @ git+https://github.com/bergsolawi/juntagrico-webdav.git@main

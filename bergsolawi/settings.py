@@ -26,8 +26,10 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "django.contrib.admin",
-    "juntagrico",
     "juntagrico_webdav",
+    "juntagrico",
+    'fontawesomefree',  # benötigt ab 1.6
+    'import_export',  # benötigt ab 1.6
     "impersonate",
     "crispy_forms",
     "bergsolawi",
@@ -157,7 +159,7 @@ IMPERSONATE = {
     "REDIRECT_URL": "/my/profile",
 }
 
-LOGIN_REDIRECT_URL = "/my/home"
+LOGIN_REDIRECT_URL = "/"
 
 """
     File & Storage Settings
@@ -170,6 +172,15 @@ MEDIA_ROOT = "media"
      Crispy Settings
 """
 CRISPY_TEMPLATE_PACK = "bootstrap4"
+
+"""
+    import_export Settings
+"""
+# Berechtigung, die nötig ist um Einträge zu exportieren.
+# Mit der Einstellung ‚view‘ können alle, die z.B. Abos im Admin sehen können,
+# diese auch exportieren, was in den meisten Fällen passen sollte:
+
+IMPORT_EXPORT_EXPORT_PERMISSION_CODE = 'view'
 
 """
      juntagrico Settings
@@ -198,8 +209,13 @@ ORGANISATION_BANK_CONNECTION = {
 }
 SHARE_PRICE = "1111"
 
-INFO_EMAIL = "info@bergsolawi.ch"
-SERVER_URL = "bergsolawi.ch"
+CONTACTS = {
+        "general": "info@bergsolawi.ch"
+}
+ORGANISATION_WEBSITE = {
+    'name': "bergsolawi.ch",
+    'url': "https://bergsolawi.ch"
+}
 ADMINPORTAL_NAME = "Bergsolawi Surselva"
 ADMINPORTAL_SERVER_URL = "intern.bergsolawi.ch"
 STYLE_SHEET = "/static/bergsolawi/css/customize.css"

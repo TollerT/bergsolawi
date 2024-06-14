@@ -18,6 +18,7 @@ COPY bergsolawi bergsolawi
 COPY requirements.txt manage.py ./
 
 RUN pip install -r requirements.txt
+RUN pip install Faker==25.8.0
 
 ENV JUNTAGRICO_SECRET_KEY="TEST_KEY"
 ENV JUNTAGRICO_DEBUG="True"

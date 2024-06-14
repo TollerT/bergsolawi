@@ -32,7 +32,9 @@ INSTALLED_APPS = [
     'import_export',  # benötigt ab 1.6
     "impersonate",
     "crispy_forms",
+    'adminsortable2',
     "bergsolawi",
+    'polymorphic',
 ]
 
 ROOT_URLCONF = "bergsolawi.urls"

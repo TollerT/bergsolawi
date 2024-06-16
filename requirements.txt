@@ -2,3 +2,4 @@ juntagrico==1.6.0
 gunicorn==22.0.0
 juntagrico-webdav==1.6.0
 # juntagrico-webdav @ git+https://github.com/bergsolawi/juntagrico-webdav.git@main
+psycopg==3.1.8

@@ -239,7 +239,7 @@ EMAILS = {
     # 'j_canceled': 'mails/job_canceled_mail.txt',
     # 'confirm': 'mails/confirm.txt',
     # 'j_changed': 'mails/job_time_changed_mail.txt',
-    # 'j_signup': 'mails/job_signup_mail.txt',
+    'j_signup': 'mails/willkommen_mail.txt',
     # 'd_changed': 'mails/depot_changed_mail.txt',
     's_created': 'mails/anteilsschein_mail.txt',
     # 'n_sub': 'mails/new_subscription.txt',

@@ -1,4 +1,4 @@
-juntagrico==1.6.0
+juntagrico==1.6.2
 gunicorn==22.0.0
 juntagrico-webdav==1.6.0
 # juntagrico-webdav @ git+https://github.com/bergsolawi/juntagrico-webdav.git@main

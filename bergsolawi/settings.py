@@ -13,7 +13,7 @@ SECRET_KEY = os.environ.get("JUNTAGRICO_SECRET_KEY")
 
 DEBUG = os.environ.get("JUNTAGRICO_DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ["bergsolawi-surselva.ch", "intern.bergsolawi.ch", "bergsolawi.juntagrico.science", "localhost", "0.0.0.0"]
+ALLOWED_HOSTS = ["intern.bergsolawi.ch", "bergsolawi.juntagrico.science", "localhost", "0.0.0.0"]
 
 
 # Application definition

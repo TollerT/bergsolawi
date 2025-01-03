@@ -205,15 +205,15 @@ ORGANISATION_NAME = "Bergsolawi"
 ORGANISATION_LONG_NAME = "Genossenschaft Bergsolawi Surselva"
 ORGANISATION_ADDRESS = {
     "name": "Genossenschaft Bergsolawi Surselva",
-    "street": "Letzigraben",
-    "number": "39",
-    "zip": "8003",
+    "street": "Tobelhofstrasse",
+    "number": "231",
+    "zip": "8044",
     "city": "Zürich",
     "extra": "",
 }
 ORGANISATION_BANK_CONNECTION = {
     "PC": "123",
-    "IBAN": "CH33 0839 0037 0378 1000 3",
+    "IBAN": "CH59 0839 0040 1694 1010 9",
     "BIC": "123",
     "NAME": "Alternative Bank Schweiz",
     "ESR": "",
